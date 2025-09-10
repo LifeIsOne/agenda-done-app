@@ -1,6 +1,8 @@
 <template>
   <main>
-    <div>Home View</div>
+    <div class="container py-4">
+      <RouterView />
+    </div>
   </main>
 </template>
 
