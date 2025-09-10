@@ -2,7 +2,7 @@
   <header>
     <nav class="navbar navbar-expand-sm bg-secondary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">최종 결정</a>
+        <RouterLink class="navbar-brand" to="/">최종 결정</RouterLink>
         <button
           class="navbar-toggler"
           type="button"
@@ -17,10 +17,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <RouterLink class="nav-link active" aria-current="page" to="/">Home</RouterLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about">About</a>
+              <RouterLink class="nav-link" to="/about">About</RouterLink>
+            </li>
+            <li class="nav-item">
+              <RouterLink class="nav-link" to="/form/create">폼 생성</RouterLink>
             </li>
           </ul>
           <!-- 검색 기능 -->
