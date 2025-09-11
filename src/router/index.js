@@ -2,10 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
 // 폼 들
-import FormListView from '@/views/form/FormListView.vue'
-import FormCreateView from '@/views/form/FormCreateView.vue'
-import FormEditView from '@/views/form/FormEditView.vue'
-import FormResponseView from '@/views/form/FormResponseView.vue'
+import FormListView from '@/views/forms/FormListView.vue'
+import FormCreateView from '@/views/forms/FormCreateView.vue'
+import FormEditView from '@/views/forms/FormEditView.vue'
+import FormResponseView from '@/views/forms/FormResponseView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
